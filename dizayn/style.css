@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.container1{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+.search{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    float: left;
+    width: calc(100% - 500px);
+    height: 50px;
+    margin-top: 5px;
+}
+input::placeholder{
+    color: white;
+    position: relative;
+    left: 10px;
+    font-size: 20px;
+}
+.search>input:first-child{
+    border-radius: 5px;
+    height: 40px;
+    position: relative;
+    left: 80px;
+    background-color: black;
+    border: 1px solid grey;
+}
+.search>a>input:last-child{
+    position: relative;
+    left: 90px;
+    width: 100px;
+    height: 40px;
+    border: 2px solid green;
+    background-color: black;
+    color: green;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.search>a>input:last-child:hover{
+    width: 100px;
+    height: 40px;
+    border-color: 1px solid green;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}
+
+.container1>div>.carousel{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    line-height: 50px;
+}
+.container1>div>.home{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    line-height: 50px;
+}
+.container1>div>.link{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    line-height: 50px;
+}
+.container1>div>.disabled{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    line-height: 50px;
+}
+
+
+.container1>div>.carousel>span{
+    color: white;
+    font-size: 30px;
+    line-height: 50px;
+}
+.container1>div>.home>span{
+    color: white;
+    font-size: 20px;
+    line-height: 50px;
+}
+.container1>div>.link>span{
+    color: white;
+    font-size: 18px;
+    line-height: 50px;
+}
+.container1>div>.disabled>span{
+    color: white;
+    font-size: 15px;
+    line-height: 50px;
+}
+
+
+.d-flex{
+    position: relative;
+    float: left;
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    height: 50px;
+    background-color: red;
+}
+
+.col-md-4>.border-radius{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-color: #595C5F;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+span{
+    font-size: 30px;
+
+}
+p{
+    font-size: 20px;
+}
+
+button{
+    width: 150px;
+    height: 50px;
+    background-color: #595C5F;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+button:hover{
+    opacity: 0.5;
+    color: black;
+}
+.border1{
+    border: 1px solid #C7C8C9;
+    margin-top: 200px;
+}
+.write1{
+    margin-top: 100px;
+    margin-left: 120px;
+}
+.box1{
+    margin-top: 100px;
+    background-color: #C7C8C9;
+    border: none;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    margin-left: 250px;
+}
+.border2{
+    border: 1px solid #C7C8C9;
+    margin-top: 200px;
+}
+.write2{
+    margin-top: 100px;
+    margin-left: 120px;
+}
+.box2{
+    margin-top: 100px;
+    background-color: #C7C8C9;
+    border: none;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    margin-left: 80px;
+}
+.border3{
+    border: 1px solid #C7C8C9;
+    margin-top: 200px;
+}
+.write3{
+    margin-top: 100px;
+    margin-left: 120px;
+}
+.box3{
+    margin-top: 100px;
+    background-color: #C7C8C9;
+    border: none;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    margin-left: 250px;
+}
+.border4{
+    border: 1px solid #C7C8C9;
+    margin-top: 200px;
+}
+.privacy{
+    width: 600px;
+    margin-top: 50px;
+}
+.privacy>span{
+    font-size: 20px;
+}
+.privacy>a>span{
+    font-size: 20px;
+}
+.backtotop{
+    width: 200px;
+    margin-top: 50px;
+    position: relative;
+    left: 500px;
+}
+.backtotop>a>span{
+    font-size: 20px;
+}
